@@ -1,0 +1,71 @@
+body {
+    width: 960px;
+    background-image: url(../images/what-the-hex-dark.png)
+}
+
+/* Font for all headings */
+h1, h2, .main-content-container {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+/* Font for all fonts other that headings */
+p, footer {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* HEADER ACROSS ALL PAGES */
+.main-header {
+    background-color: #ffffff;
+    border-bottom: 5px solid #e608a3;
+    width: 960px;
+    display: inline-block;
+}
+
+    h1 {
+        background-color: #4aaaa5;
+        color: white;
+        padding: 10px;
+        margin: 10px 0px 0px 0px;
+        float: left;
+    }
+
+    nav {
+        color: #777777;
+        float: right;
+    }
+
+/* CONTENT CONTAINER ACROSS ALL PAGES */
+.main-content-container {
+    background-color: #ffffff;
+    border: #dddddd;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    display: inline-block;
+}
+
+    h2 {
+    border-bottom: 1px solid #e608a3;
+    }
+
+    #profile-photo {
+        float: left;
+        margin-right: 20px;
+    }
+
+    p {
+        color: #777777;
+        line-height: 1.6;
+    }
+
+/* FOOTER */
+footer {
+    background-color: #666666;
+    border-top: 5px solid #e608a3;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+    
