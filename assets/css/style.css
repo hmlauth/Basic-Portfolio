@@ -49,6 +49,7 @@ body {
             }
                 span {
                     color: #777777;
+                    margin: 20px;
                 }
 
                 nav > a {
@@ -135,3 +136,12 @@ section {
         background-color: none;
         padding: none;
     }
+
+/* PORTFOLIO - Form styling */
+
+img {
+   height: 150px;
+   margin: 10px;
+}
+
+
