@@ -3,9 +3,15 @@
     box-sizing: border-box; 
 }
 
+
+
 body {
     margin: 0 auto;
     background-image: url(../images/what-the-hex-dark.png);
+}
+
+.container { /* Here if I need it eventually ... */
+   
 }
 
 /* ALL PAGES */
@@ -32,6 +38,9 @@ body {
             background-color: #ffffff;
             width: 960px;
             margin: 0 auto;
+            height: 79px;
+            position: relative;
+            
         }
 
             h1 {
@@ -39,13 +48,19 @@ body {
                 color: white;
                 float: left;
                 margin: 0px;
-                padding: 20px;
+                padding: 21px;
+                position: absolute;
+                bottom: 0px;
+            }
+
+            .navigation {
+                float: right;
             }
 
             nav {
                 color: #777777;
-                float: right;
                 padding-top: 30px;
+                text-align: center;
             }
                 span {
                     color: #777777;
@@ -139,9 +154,31 @@ section {
 
 /* PORTFOLIO - Form styling */
 
-img {
-   height: 150px;
-   margin: 10px;
+.photo-container {
+    display: inline-block;
 }
 
+img {
+   height: 150px;
+}
 
+.row {
+    width: 100%;
+}
+
+.column {
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+h3 {
+    background-color: #3b928e;
+    color: white;
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    padding: 10px;
+    position: absolute;
+    bottom: 1px;
+    width: 200px;
+}
