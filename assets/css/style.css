@@ -142,7 +142,7 @@ section {
         resize: vertical;
     }
 
-    input[type=submit] {
+    .submit {
         background-color: #4aaaa5;
         color: #ffffff;
         padding: 12px 20px;
@@ -151,7 +151,7 @@ section {
         cursor: pointer;
     }
 
-    input[type=submit]:hover {
+    .submit:hover {
         background-color: #3b928e;
     }
 
@@ -160,6 +160,63 @@ section {
         background-color: none;
         padding: none;
     }
+
+/* CONTACT - "Submit" Popup! */
+    /* div class="popup" */
+    .popup {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    /* The actual popup: .popup (above) .popuptext (span element) */
+    .popup .popuptext {
+        visibility: hidden;
+        width: 160px;
+        background-color: black;
+        color: white;
+        border-radius: 6px;
+        padding: 8px 0px;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -80px;
+    }
+
+    /* Popup arrow on */
+    .popup .popuptext::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: black transparent transparent transparent;
+    }
+
+    /* Toggle this class (.popup from HTML, and .show from .js) - hide and who pop up */
+    .popup .show {
+        visibility: visible;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s;
+    }
+
+        /* Add animation (fade in the popup) */
+        @-webkit-keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;} 
+        }
 
 /* PORTFOLIO - Form styling */
 

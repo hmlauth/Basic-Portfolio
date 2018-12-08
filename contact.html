@@ -6,7 +6,7 @@
     <title>Basic Portfolio></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="main.js"></script>
+    <script src="logic.js"></script>
 </head>
 
 <body>
@@ -45,7 +45,12 @@
                     <br>
                     <textarea id="message" placeholder="How may I help you?" style="height:200px"></textarea>                    
 
-                    <input type="submit" value="Submit">
+                    <div class="popup" onclick="myFunction(this, event)">
+                        <input class="submit" value="Submit">
+                            <!--Note: change to div from span because I already have span defined in CSS for something else, unless I could create an ID for each? Does div work under these circumstances? -->
+                            <span class="popuptext" id="myPopup">Thank you!
+                            </span>
+                    </div>
                 </form>
             </div>
         </section>
