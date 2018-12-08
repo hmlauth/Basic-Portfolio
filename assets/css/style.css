@@ -91,6 +91,10 @@ body {
         
     }
 
+    .br {
+        margin: 500px;
+    }
+
     /* FOOTER*/
     footer {
         background-color: #4aaaa5;
