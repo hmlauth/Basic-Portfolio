@@ -129,9 +129,13 @@ section {
             margin: 10px 10px 0px 0px;   
         }
 
-        p {
+        p, ul {
             color: #777777;
             line-height: 2.0;
+        }
+
+        ul {
+            margin-left: 337px;
         }
 
 /* CONTACT - Form styling */
@@ -153,6 +157,7 @@ section {
         border: none;
         border-radius: 4px;
         cursor: pointer;
+        text-align: center;
     }
 
     .submit:hover {
@@ -232,6 +237,9 @@ img {
    height: 150px;
 }
 
+#profile-photo {
+    height: 420px;
+}
 .row {
     width: 100%;
 }
@@ -265,4 +273,8 @@ h3 > a {
     background-color: #3b928e;
     color: white;
     text-decoration: none;
+}
+
+.popuptext {
+    text-align: center;
 }
