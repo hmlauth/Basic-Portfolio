@@ -1,2 +1,2 @@
 # Basic-Portfolio
-HW Week 1 - Learning CSS
+This site shows a basic "portfolio" layout using HTML, CSS and some JavaScript. 
